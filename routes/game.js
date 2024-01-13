@@ -6,7 +6,7 @@ import { getAll, addOnce, getOnce,
 import multer from '../middlewares/multer-config.js'; // Importer la configuration de multer
 
 const router = express.Router();
-
+//routes
 router
   .route('/')
   .get(getAll)
